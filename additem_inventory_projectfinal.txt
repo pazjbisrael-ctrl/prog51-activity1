@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std; 
+int main() {
+int choice;
+  
+  cout << "\nxxxxINVENTORY_MENUxxxxxxx\n";
+  cout << "1.ADD ITEM\n";
+
+  cout << "ENTER CHOICE: ";
+  cin >> choice;
+
+  switch (choice){
+    case 1:
+    string item_name;
+    int quantity, price;
+    cout << "ITEM NAME: ";
+    cin >> item_name;
+    cout << "QUANTITY: ";
+    cin >> quantity;
+    cout << "PRICE: ";
+    cin >> price;
+    cout << "xxxITEM ADDEDxxx";
+    break;
+  }
+  
+    return 0;
+}
